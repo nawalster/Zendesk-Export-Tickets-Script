@@ -1,11 +1,11 @@
-## # Zendesk Ticket Data Export
+#  Zendesk Ticket Data Export
 
 Full ticket data export (including ticket details such as comments, attachments, etc) based on date range.
 
-#### Folder structure:
+### Folder structure:
 
-data/
 ```bash
+data/
 ├─ tickets/
 │  ├─ ****/ (ticket id)
 │  │  ├─ ticket.json
@@ -14,6 +14,6 @@ data/
 │  │  │  │  ├─ comment.json
 ```
 
-#### Dependencies
+### Dependencies
 -   Python 3
 -   Requests
