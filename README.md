@@ -5,12 +5,14 @@ Full ticket data export (including ticket details such as comments, attachments,
 #### Folder structure:
 
 data/
+```bash
 ├─ tickets/
-│  ├─ {ticket-id}/
+│  ├─ ****/   (ticket id)
 │  │  ├─ ticket.json
 │  │  ├─ comments/
-│  │  │  ├─ {comment-id}/
+│  │  │  ├─ ****/   (comment id)
 │  │  │  │  ├─ comment.json
+```
 
 #### Dependencies
 -   Python 3
