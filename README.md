@@ -7,10 +7,10 @@ Full ticket data export (including ticket details such as comments, attachments,
 data/
 ```bash
 ├─ tickets/
-│  ├─ ****/   (ticket id)
+│  ├─ ****/ (ticket id)
 │  │  ├─ ticket.json
 │  │  ├─ comments/
-│  │  │  ├─ ****/   (comment id)
+│  │  │  ├─ ****/ (comment id)
 │  │  │  │  ├─ comment.json
 ```
 
